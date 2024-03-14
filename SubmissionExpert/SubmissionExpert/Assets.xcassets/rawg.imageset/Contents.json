@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "rawg-logo_750x430-photoaidcom-cropped.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rawg-logo_750x430-photoaidcom-cropped@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rawg-logo_750x430-photoaidcom-cropped@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
