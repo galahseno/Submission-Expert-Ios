@@ -774,7 +774,7 @@
 			repositoryURL = "https://github.com/galahseno/Modularization-Core-Package";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
 		19AEA5A52B96F77200A7FF15 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
