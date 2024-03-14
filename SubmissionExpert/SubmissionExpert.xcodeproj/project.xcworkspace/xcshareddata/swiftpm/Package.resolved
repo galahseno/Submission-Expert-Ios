@@ -12,10 +12,10 @@
     {
       "identity" : "modularization-core-package",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/galahseno/Modularization-Core-Package",
+      "location" : "https://github.com/galahseno/Modularization-Core-Package.git",
       "state" : {
         "branch" : "main",
-        "revision" : "2175e9fc9086245f3693f0f71d5a4f9cba47aaba"
+        "revision" : "12af845abc01bd5b816011c4f76bc9e114f492de"
       }
     },
     {
