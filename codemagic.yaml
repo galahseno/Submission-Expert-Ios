@@ -6,7 +6,7 @@ workflows:
       cocoapods: default
       vars:
           XCODE_PROJECT: "SubmissionExpert/SubmissionExpert.xcodeproj" # Isikan nama project Anda.
-          XCODE_SCHEME: "SubmissionExpert/SubmissionExpert" # Isikan nama scheme project Anda.
+          XCODE_SCHEME: "SubmissionExpert" # Isikan nama scheme project Anda.
     scripts:
       - name: Run tests
         script: |
