@@ -30,11 +30,22 @@
       shouldAutocreateTestPlan = "YES">
       <Testables>
          <TestableReference
-            skipped = "YES"
+            skipped = "NO"
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "19CC9E9F2B9996FC00B99F4A"
+               BlueprintIdentifier = "197DAAA62BA2E69700121642"
+               BuildableName = "SubmissionExpertTests.xctest"
+               BlueprintName = "SubmissionExpertTests"
+               ReferencedContainer = "container:SubmissionExpert.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "197DAAA62BA2E69700121642"
                BuildableName = "SubmissionExpertTests.xctest"
                BlueprintName = "SubmissionExpertTests"
                ReferencedContainer = "container:SubmissionExpert.xcodeproj">
