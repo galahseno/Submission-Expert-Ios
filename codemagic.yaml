@@ -2,7 +2,7 @@ workflows:
   ios-project-debug: # workflow ID
     name: iOS debug # workflow name
     environment:
-      xcode: 14.3.1
+      xcode: 15.0
       cocoapods: default
       vars:
           XCODE_PROJECT: "SubmissionExpert/SubmissionExpert.xcodeproj" # Isikan nama project Anda.
