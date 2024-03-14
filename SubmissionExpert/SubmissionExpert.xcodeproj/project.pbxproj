@@ -17,7 +17,7 @@
 		192819692BA1DD7A0049494B /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192819682BA1DD7A0049494B /* DetailRouter.swift */; };
 		197DAA942BA2D29600121642 /* TabEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DAA932BA2D29600121642 /* TabEnum.swift */; };
 		197DAAC62BA2EB8400121642 /* SubmissionExpertTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DAAC52BA2EB8400121642 /* SubmissionExpertTest.swift */; };
-		197DAAD12BA2F78C00121642 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 197DAAD02BA2F78C00121642 /* Core */; };
+		197DAAD42BA3202100121642 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 197DAAD32BA3202100121642 /* Core */; };
 		19AEA5A02B96CAEF00A7FF15 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEA59F2B96CAEF00A7FF15 /* SearchView.swift */; };
 		19AEA5A22B96CB0D00A7FF15 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEA5A12B96CB0D00A7FF15 /* FavoriteView.swift */; };
 		19AEA5A42B96EDCF00A7FF15 /* GameRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEA5A32B96EDCF00A7FF15 /* GameRowView.swift */; };
@@ -79,7 +79,7 @@
 				19AEA5A72B96F77200A7FF15 /* CachedAsyncImage in Frameworks */,
 				19C9239B2B958D4C004AB19F /* Realm in Frameworks */,
 				192819662BA14DB70049494B /* Search in Frameworks */,
-				197DAAD12BA2F78C00121642 /* Core in Frameworks */,
+				197DAAD42BA3202100121642 /* Core in Frameworks */,
 				1928195C2BA078710049494B /* Favorite in Frameworks */,
 				19C923982B958D0A004AB19F /* Alamofire in Frameworks */,
 				19EEC6392BA03CD0003E5827 /* Home in Frameworks */,
@@ -335,7 +335,7 @@
 				192819552BA0783D0049494B /* Detail */,
 				1928195B2BA078710049494B /* Favorite */,
 				192819652BA14DB70049494B /* Search */,
-				197DAAD02BA2F78C00121642 /* Core */,
+				197DAAD32BA3202100121642 /* Core */,
 			);
 			productName = SubmissionExpert;
 			productReference = 191387832B9586C800FAEDC1 /* SubmissionExpert.app */;
@@ -397,7 +397,7 @@
 				192819542BA0783D0049494B /* XCLocalSwiftPackageReference "../Modules/Detail" */,
 				1928195A2BA078710049494B /* XCLocalSwiftPackageReference "../Modules/Favorite" */,
 				1928195D2BA078850049494B /* XCLocalSwiftPackageReference "../Modules/Shared" */,
-				197DAACF2BA2F78C00121642 /* XCRemoteSwiftPackageReference "Modularization-Core-Package" */,
+				197DAAD22BA3202100121642 /* XCRemoteSwiftPackageReference "Modularization-Core-Package" */,
 			);
 			productRefGroup = 191387842B9586C800FAEDC1 /* Products */;
 			projectDirPath = "";
@@ -771,12 +771,12 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		197DAACF2BA2F78C00121642 /* XCRemoteSwiftPackageReference "Modularization-Core-Package" */ = {
+		197DAAD22BA3202100121642 /* XCRemoteSwiftPackageReference "Modularization-Core-Package" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/galahseno/Modularization-Core-Package";
+			repositoryURL = "https://github.com/galahseno/Modularization-Core-Package.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.1;
+				minimumVersion = 1.0.2;
 			};
 		};
 		19AEA5A52B96F77200A7FF15 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
@@ -818,9 +818,9 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = Search;
 		};
-		197DAAD02BA2F78C00121642 /* Core */ = {
+		197DAAD32BA3202100121642 /* Core */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 197DAACF2BA2F78C00121642 /* XCRemoteSwiftPackageReference "Modularization-Core-Package" */;
+			package = 197DAAD22BA3202100121642 /* XCRemoteSwiftPackageReference "Modularization-Core-Package" */;
 			productName = Core;
 		};
 		19AEA5A62B96F77200A7FF15 /* CachedAsyncImage */ = {
