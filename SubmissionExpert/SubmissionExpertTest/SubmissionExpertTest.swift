@@ -1,13 +1,13 @@
 //
-//  SubmissionExpertTests.swift
-//  SubmissionExpertTests
+//  SubmissionExpertTest.swift
+//  SubmissionExpertTest
 //
 //  Created by Galah Seno on 14/03/24.
 //
 
 import XCTest
 
-final class SubmissionExpertTests: XCTestCase {
+final class SubmissionExpertTest: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,7 +22,8 @@ final class SubmissionExpertTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+        // Mark your test async to allow awaiting for asynchronous
+        // code to complete. Check the results with assertions afterwards.
     }
 
     func testPerformanceExample() throws {

@@ -51,6 +51,17 @@
                ReferencedContainer = "container:SubmissionExpert.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "197DAAC22BA2EB8400121642"
+               BuildableName = "SubmissionExpertTest.xctest"
+               BlueprintName = "SubmissionExpertTest"
+               ReferencedContainer = "container:SubmissionExpert.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
