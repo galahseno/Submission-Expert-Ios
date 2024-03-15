@@ -18,6 +18,8 @@
 		197DAA942BA2D29600121642 /* TabEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DAA932BA2D29600121642 /* TabEnum.swift */; };
 		197DAAC62BA2EB8400121642 /* SubmissionExpertTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197DAAC52BA2EB8400121642 /* SubmissionExpertTest.swift */; };
 		197DAAD42BA3202100121642 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 197DAAD32BA3202100121642 /* Core */; };
+		197DAADE2BA4220E00121642 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 197DAADC2BA4220E00121642 /* Localizable.strings */; };
+		197DAAE12BA4221500121642 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 197DAADF2BA4221500121642 /* Localizable.strings */; };
 		19AEA5A02B96CAEF00A7FF15 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEA59F2B96CAEF00A7FF15 /* SearchView.swift */; };
 		19AEA5A22B96CB0D00A7FF15 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEA5A12B96CB0D00A7FF15 /* FavoriteView.swift */; };
 		19AEA5A42B96EDCF00A7FF15 /* GameRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AEA5A32B96EDCF00A7FF15 /* GameRowView.swift */; };
@@ -57,6 +59,8 @@
 		197DAA932BA2D29600121642 /* TabEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabEnum.swift; sourceTree = "<group>"; };
 		197DAAC32BA2EB8400121642 /* SubmissionExpertTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubmissionExpertTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		197DAAC52BA2EB8400121642 /* SubmissionExpertTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionExpertTest.swift; sourceTree = "<group>"; };
+		197DAADD2BA4220E00121642 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		197DAAE02BA4221500121642 /* id */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = id; path = Localizable.strings; sourceTree = "<group>"; };
 		19AEA59F2B96CAEF00A7FF15 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		19AEA5A12B96CB0D00A7FF15 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 		19AEA5A32B96EDCF00A7FF15 /* GameRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRowView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 		191387852B9586C800FAEDC1 /* SubmissionExpert */ = {
 			isa = PBXGroup;
 			children = (
+				197DAADB2BA4220300121642 /* id.lproj */,
+				197DAADA2BA421ED00121642 /* en.lproj */,
 				19C9238A2B958B79004AB19F /* App */,
 				19C9238B2B958B91004AB19F /* Core */,
 				19C9238C2B958BB3004AB19F /* Module */,
@@ -163,6 +169,22 @@
 				197DAAC52BA2EB8400121642 /* SubmissionExpertTest.swift */,
 			);
 			path = SubmissionExpertTest;
+			sourceTree = "<group>";
+		};
+		197DAADA2BA421ED00121642 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				197DAADC2BA4220E00121642 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		197DAADB2BA4220300121642 /* id.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				197DAADF2BA4221500121642 /* Localizable.strings */,
+			);
+			path = id.lproj;
 			sourceTree = "<group>";
 		};
 		19C9238A2B958B79004AB19F /* App */ = {
@@ -415,6 +437,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1913878E2B9586C900FAEDC1 /* Preview Assets.xcassets in Resources */,
+				197DAAE12BA4221500121642 /* Localizable.strings in Resources */,
+				197DAADE2BA4220E00121642 /* Localizable.strings in Resources */,
 				1913878B2B9586C900FAEDC1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +510,25 @@
 			targetProxy = 197DAAC72BA2EB8400121642 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		197DAADC2BA4220E00121642 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				197DAADD2BA4220E00121642 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		197DAADF2BA4221500121642 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				197DAAE02BA4221500121642 /* id */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1913878F2B9586C900FAEDC1 /* Debug */ = {

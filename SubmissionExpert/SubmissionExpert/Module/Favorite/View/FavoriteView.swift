@@ -20,7 +20,7 @@ struct FavoriteView: View {
             ZStack {
                 if presenter.isLoading {
                     VStack {
-                        Text("Loading...")
+                        Text("loading_text".localized())
                         ProgressView()
                     }
                 } else if !presenter.errorMessage.isEmpty {
@@ -30,7 +30,7 @@ struct FavoriteView: View {
                         Button {
                             self.presenter.getFavoriteGames()
                         } label: {
-                            Label("Retry", systemImage: "arrow.circlepath")
+                            Label("retry".localized(), systemImage: "arrow.circlepath")
                         }
                         .buttonStyle(.borderedProminent)
                     }
@@ -40,7 +40,7 @@ struct FavoriteView: View {
                             .resizable()
                             .frame(width: 75, height: 60)
                             .opacity(0.75)
-                        Text("Your favorite Games is empty")
+                        Text("empty_favorite".localized())
                             .font(.title2)
                     }
                     .padding()
@@ -57,7 +57,7 @@ struct FavoriteView: View {
                     }
                 }
             }
-            .navigationTitle("Favorite Games")
+            .navigationTitle("favorite_games".localized())
             .onAppear {
                 self.presenter.getFavoriteGames()
             }

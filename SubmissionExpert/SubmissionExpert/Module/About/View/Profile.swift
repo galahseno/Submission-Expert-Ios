@@ -19,7 +19,7 @@ struct Profile: View {
                 .overlay(Circle().stroke(Color.gray, lineWidth: 4))
                 .shadow(radius: 10)
                 .padding()
-            Text("Galah Seno Adjie")
+            Text("profile_name".localized())
         }
     }
 }

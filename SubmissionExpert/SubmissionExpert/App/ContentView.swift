@@ -56,19 +56,19 @@ struct MainView: View {
         TabView(selection: $selection) {
             HomeView(presenter: homePresenter)
                 .tabItem {
-                    Label("Home", systemImage: "swift")
+                    Label("home".localized(), systemImage: "swift")
                 }
                 .tag(TabEnum.home)
 
             SearchView(presenter: searchPresenter)
                 .tabItem {
-                    Label("Search", systemImage: "magnifyingglass")
+                    Label("search".localized(), systemImage: "magnifyingglass")
                 }
                 .tag(TabEnum.search)
 
             FavoriteView(presenter: favoritePresenter)
                 .tabItem {
-                    Label("Favorite", systemImage: "star.fill")
+                    Label("favorite".localized(), systemImage: "star.fill")
                 }
                 .tag(TabEnum.favorite)
         }
@@ -83,7 +83,7 @@ struct SplashScreenView: View {
             Image(uiImage: UIImage(imageLiteralResourceName: "rawg"))
                 .resizable()
                 .frame(width: 200, height: 200)
-            Text("Rawg.io")
+            Text("app_name".localized())
                 .font(.title)
         }
     }

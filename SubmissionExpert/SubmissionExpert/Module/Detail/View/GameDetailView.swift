@@ -27,7 +27,7 @@ struct GameDetailView: View {
         ZStack {
             if presenter.loadingState {
                 VStack {
-                    Text("Loading...")
+                    Text("loading_text".localized())
                     ProgressView()
                 }
             } else if !presenter.errorMessage.isEmpty {
@@ -37,7 +37,7 @@ struct GameDetailView: View {
                     Button {
                         self.presenter.getDetailGames(request: id)
                     } label: {
-                        Label("Retry", systemImage: "arrow.circlepath")
+                        Label("retry".localized(), systemImage: "arrow.circlepath")
                     }
                     .buttonStyle(.borderedProminent)
                 }
@@ -66,19 +66,19 @@ struct GameDetailView: View {
                     Button {
                         presenter.favoriteState ? presenter.deleteFavorite() : presenter.addFavorite()
                     } label: {
-                        Label("Favorite", systemImage: presenter.favoriteState ?
+                        Label("favorite".localized(), systemImage: presenter.favoriteState ?
                               "heart.circle.fill" : "heart.circle")
                     }
                     Button {
                         openURL(URL(string: presenter.game!.website)!)
                     } label: {
-                        Label("Web", systemImage: "globe")
+                        Label("web".localized(), systemImage: "globe")
                     }
                     if shareImage != nil {
                         ShareLink(
                             item: shareImage!,
-                            subject: Text("Cool Photo"),
-                            message: Text("Check it out!"),
+                            subject: Text("photo".localized()),
+                            message: Text("check_it".localized()),
                             preview: SharePreview(
                                 presenter.game!.name,
                                 image: shareImage!))
@@ -125,7 +125,7 @@ extension GameDetailView {
                     .font(.subheadline)
             }
             Spacer()
-            Text("Releasaed : \(presenter.game!.released)")
+            Text("releasaed".localized() + presenter.game!.released)
                 .font(.subheadline)
         }
         .padding(
@@ -139,7 +139,7 @@ extension GameDetailView {
 
     var genres: some View {
         VStack {
-            Text("Genres :")
+            Text("genres".localized())
                 .font(.subheadline)
             Text(presenter.game!.genres.joined(separator: ", "))
                 .font(.subheadline)
@@ -155,7 +155,7 @@ extension GameDetailView {
 
     var developers: some View {
         VStack {
-            Text("Developers :")
+            Text("developers".localized())
                 .font(.subheadline)
             Text(presenter.game!.developers.joined(separator: ", "))
                 .font(.subheadline)

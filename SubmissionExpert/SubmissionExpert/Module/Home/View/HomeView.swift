@@ -22,8 +22,7 @@ struct HomeView: View {
             ZStack {
                 if presenter.isLoading {
                     VStack {
-                       // Text("loading_text".localized(identifier: "id.dev.seno.SubmissionExpert.Shared"))
-                        Text("Loading...")
+                        Text("loading_text".localized())
                         ProgressView()
                     }
                 } else if !presenter.errorMessage.isEmpty {
@@ -33,7 +32,7 @@ struct HomeView: View {
                         Button {
                             self.presenter.getGames()
                         } label: {
-                            Label("Retry", systemImage: "arrow.circlepath")
+                            Label("retry".localized(), systemImage: "arrow.circlepath")
                         }
                         .buttonStyle(.borderedProminent)
                     }
@@ -47,13 +46,13 @@ struct HomeView: View {
                                 GameRowView(gameModel: game)
                             }
                         }
-                        .navigationTitle("Top Games")
+                        .navigationTitle("top_games".localized())
                     }
                     .toolbar {
                         Button {
                             showingProfile.toggle()
                         } label: {
-                            Label("Profile", systemImage: "person.crop.circle")
+                            Label("profile".localized(), systemImage: "person.crop.circle")
                         }
                     }
                     .sheet(isPresented: $showingProfile) {

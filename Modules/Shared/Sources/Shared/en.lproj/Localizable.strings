@@ -6,4 +6,22 @@
   
 */
 
-"loading_text" = "Memuat...";
+"loading_text" = "Loading...";
+"app_name" = "Rawg.io";
+"home" = "Home";
+"search" = "Search";
+"favorite" = "Favorite";
+"profile" = "Profile";
+"top_games" = "Top Games";
+"search_games" = "Search Games";
+"search_your_games" = "Search your Games";
+"favorite_games" = "Favorite Games";
+"empty_favorite" = "Your Favorite Games is empty";
+"profile_name" = "Galah Seno Adjie";
+"releasaed" = "Releasaed : ";
+"genres" = "Genres :";
+"developers" = "Developers :";
+"web" = "Web";
+"retry" = "Retry";
+"photo" = "Cool Photo";
+"check_it" = "Check it out!";

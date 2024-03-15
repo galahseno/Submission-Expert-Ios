@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Galah Seno on 15/03/24.
+  
+*/
+
+"loading_text" = "Memuat...";
+"app_name" = "Rawg.io";
+"home" = "Beranda";
+"search" = "Cari";
+"favorite" = "Favorit";
+"profile" = "Profil";
+"top_games" = "Game Teratas";
+"search_games" = "Pencarian Game";
+"search_your_games" = "Cari Game anda";
+"favorite_games" = "Game Favorit";
+"empty_favorite" = "Game Favorit Anda kosong";
+"profile_name" = "Galah Seno Adjie";
+"releasaed" = "Tanggal Rilis : ";
+"genres" = "Genre :";
+"developers" = "Pengembang :";
+"web" = "Situs";
+"retry" = "Ulangi";
+"photo" = "Foto Keren";
+"check_it" = "Coba lihat!";

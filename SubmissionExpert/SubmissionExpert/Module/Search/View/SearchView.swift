@@ -21,7 +21,7 @@ struct SearchView: View {
             ZStack {
                 if presenter.isLoading {
                     VStack {
-                        Text("Loading...")
+                        Text("loading_text".localized())
                         ProgressView()
                     }
                 } else if !presenter.errorMessage.isEmpty {
@@ -31,7 +31,7 @@ struct SearchView: View {
                         Button {
                             self.presenter.search()
                         } label: {
-                            Label("Retry", systemImage: "arrow.circlepath")
+                            Label("retry".localized(), systemImage: "arrow.circlepath")
                         }
                         .buttonStyle(.borderedProminent)
                     }
@@ -41,7 +41,7 @@ struct SearchView: View {
                             .resizable()
                             .frame(width: 75, height: 60)
                             .opacity(0.75)
-                        Text("Search your Games")
+                        Text("search_your_games".localized())
                             .font(.title2)
                     }
                     .padding()
@@ -58,7 +58,7 @@ struct SearchView: View {
                     }
                 }
             }
-            .navigationTitle("Search Games")
+            .navigationTitle("search_games".localized())
             .searchable(text: $presenter.keyword)
             .onSubmit(of: .search) {
                 self.presenter.search()
